@@ -6,6 +6,7 @@
 	<artifactId>AutomateIRSWebsiteTesting</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>AutomateIRSWebsiteTesting</name>
+	<description>AutomateIRSWebsiteTesting</description>
 
 	<properties>
 
@@ -13,169 +14,38 @@
 
 	</properties>
 
-
-
 	<dependencies>
 
-
-
 		<dependency>
-
 			<groupId>org.seleniumhq.selenium</groupId>
-
 			<artifactId>selenium-java</artifactId>
-
 			<version>3.9.1</version>
-
 		</dependency>
 
 
-
 		<dependency>
-
-			<groupId>org.seleniumhq.selenium</groupId>
-
-			<artifactId>selenium-chrome-driver</artifactId>
-
-			<version>2.25.0</version>
-
-		</dependency>
-
-
-
-		<dependency>
-
 			<groupId>info.cukes</groupId>
-
-			<artifactId>cucumber-java</artifactId>
-
-			<version>${cucumber.version}</version>
-
-
-
-		</dependency>
-
-
-
-		<dependency>
-
-			<groupId>info.cukes</groupId>
-
 			<artifactId>cucumber-core</artifactId>
-
 			<version>${cucumber.version}</version>
 
 		</dependency>
 
-
-
 		<dependency>
-
 			<groupId>info.cukes</groupId>
-
-			<artifactId>cucumber-jvm</artifactId>
-
+			<artifactId>cucumber-java</artifactId>
 			<version>${cucumber.version}</version>
-
-			<type>pom</type>
-
 		</dependency>
 
-
-
 		<dependency>
-
 			<groupId>info.cukes</groupId>
-
 			<artifactId>cucumber-junit</artifactId>
-
 			<version>${cucumber.version}</version>
-
 		</dependency>
 
-
-
 		<dependency>
-
 			<groupId>info.cukes</groupId>
-
-			<artifactId>cucumber-jvm-deps</artifactId>
-
-			<version>1.0.5</version>
-
-
-
-		</dependency>
-
-
-
-		<dependency>
-
-			<groupId>info.cukes</groupId>
-
 			<artifactId>cucumber-testng</artifactId>
-
-			<version>1.2.0</version>
-
-		</dependency>
-
-
-
-		<!-- <dependency> <groupId>junit</groupId> <artifactId>junit</artifactId> 
-			<version>4.12</version> <scope>test</scope> </dependency> -->
-
-		<dependency>
-
-			<groupId>org.testng</groupId>
-
-			<artifactId>testng</artifactId>
-
-			<version>6.9.8</version>
-
-			<scope>test</scope>
-
-		</dependency>
-
-
-
-		<dependency>
-
-			<groupId>net.masterthought</groupId>
-
-			<artifactId>cucumber-reporting</artifactId>
-
-			<version>5.6.0</version>
-
-		</dependency>
-
-
-
-		<dependency>
-
-			<groupId>net.sf.json-lib</groupId>
-
-			<artifactId>json-lib</artifactId>
-
-			<version>2.4</version>
-
-			<classifier>jdk15</classifier>
-
-		</dependency>
-
-
-
-
-
-		<dependency>
-
-			<groupId>com.microsoft.edge</groupId>
-
-			<artifactId>msedge-selenium-tools-java</artifactId>
-
-			<version>3.141.0</version>
-
-			<type>pom</type>
-
+			<version>${cucumber.version}</version>
 		</dependency>
 
 

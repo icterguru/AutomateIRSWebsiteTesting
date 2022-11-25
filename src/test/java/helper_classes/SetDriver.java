@@ -30,6 +30,7 @@ public class SetDriver {
 		//System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");  // For Windows
 			System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver");  // For Mac
 			webDriver = new ChromeDriver();
+			
 		}
 	
 	@After
@@ -50,8 +51,8 @@ public class SetDriver {
             System.out.println(cookies.size());
             Iterator<Cookie> iter= driver.manage().getCookies().iterator();
             while(iter.hasNext()){
-                Cookie C = iter.next();
-              //  System.out.println(C.getName()+"\n" + C.getPath()+"\n"+ C.getDomain()+"\n"+C.getValue()+"\n"+C.getExpiry());
+                Cookie c = iter.next();
+              //  System.out.println(c.getName()+"\n" + c.getPath()+"\n"+ c.getDomain()+"\n"+ c.getValue()+"\n"+ c.getExpiry());
             }
             cookies.clear();
             System.out.println(cookies.size());

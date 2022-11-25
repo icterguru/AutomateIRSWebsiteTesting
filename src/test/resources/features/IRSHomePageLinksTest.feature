@@ -3,7 +3,7 @@ Feature: IRS Homepage links Checkup
 As an IRS Lover, I want to learn about the IRS services 
  
 Background:
-	Given I launch the IRS home page url     
+	Given I launch the app home page     
 	And I scroll down to the end of the page
  
 Scenario Outline: Selecting different footer links and checking the corresponding page     
@@ -12,7 +12,11 @@ Scenario Outline: Selecting different footer links and checking the correspondin
  
     Examples:        
     |footerLink_text|linkedPage_text|
-    |About IRS|About IRS|  
-    |IRS Careers|Help Fund America's Future|
-    |Taxpayer Bill of Rights|Taxpayer Rights Topics|
-
+    |File|Filing information for|
+    |Pay|Pay Online|
+    |Find a Local Office|Contact Your Local IRS Office|
+    |Civil Rights|Protecting Taxpayer Civil Rights|
+    |Tax Fraud|Tax Fraud Alerts|
+    |Criminal Investigation|Criminal Investigation|
+    |Other Languages|Languages|
+    

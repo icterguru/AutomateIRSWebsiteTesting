@@ -26,8 +26,8 @@ public final class GlobalSettings {
 			
 			currentDirectory = System.getProperty("user.dir");
 			System.out.println("Project location: " + currentDirectory);
-			property.load(new FileInputStream(new File("./src/test/resources/properties/IRSHPGlobalSettings.properties")));
-			// ./src/test/resources/properties/IRSHPGlobalSettings.properties
+			property.load(new FileInputStream(new File("./src/test/resources/properties/IRSWTGlobalSettings.properties")));
+			// ./src/test/resources/properties/IRSWTGlobalSettings.properties
 
 			if (propertyFileStream != null) {
 				property.load(propertyFileStream);
