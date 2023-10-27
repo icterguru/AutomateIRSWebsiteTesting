@@ -27,9 +27,9 @@ public class SetDriver {
 //		browser = GlobalSettings.getInstance().getProperty("BROWSER");
 //		System.out.println("Selected browser is: " + browser);
 
-		//System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");  // For Windows
-			System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver");  // For Mac
-			webDriver = new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");  // For Windows
+		//System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver");  // For Mac
+		webDriver = new ChromeDriver();
 			
 		}
 	
