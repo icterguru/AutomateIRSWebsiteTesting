@@ -11,8 +11,7 @@
 	<properties>
 
 		<cucumber.version>1.2.4</cucumber.version>
-	 <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+	
 	</properties>
 
 	<dependencies>
