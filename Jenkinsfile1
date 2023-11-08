@@ -3,19 +3,19 @@ pipeline {
     stages{
         stage("Init"){
            steps {
-               echo "Testing..."
+               echo "Testing JenkinsFile1..."
            
            } 
         }
     stage("Build"){
         steps{
-            echo "Building..."
+            echo "Building JenkinsFile1..."
         }
     }  
     
     stage("Deploy"){
         steps{
-            echo "Code deployment"
+            echo "JenkinsFile1Code deployment"
         }
     }
     
