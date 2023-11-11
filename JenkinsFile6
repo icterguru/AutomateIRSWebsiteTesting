@@ -1,15 +1,12 @@
 pipeline {
     agent any
-triggers{
-     pollSCM('* * * * *')
-        }
+
     stages{
         stage("Init"){
            steps {
                echo "Testing JenkinsFile 6..."       
            } 
         }
-    }
   
     stage("Build"){
         steps{
@@ -21,5 +18,9 @@ triggers{
         steps{
             echo "JenkinsFile6 Code deployment"
         }
-    }    
+    }
+}
+triggers{
+     pollSCM('* * * * *')
+        }
 }
