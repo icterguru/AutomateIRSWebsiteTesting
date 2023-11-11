@@ -7,8 +7,9 @@ pipeline {
            
            } 
         }
-
+		}
     triggers{
+			echo "Triggering for JenkinsFile 6..."
             pollSCM('* * * * *')
         }
   
@@ -22,8 +23,5 @@ pipeline {
         steps{
             echo "JenkinsFile6 Code deployment"
         }
+    }    
     }
-    
-        
-    }
-}
