@@ -10,7 +10,7 @@ pipeline {
   
     stage("Build"){
         steps{
-            echo "Building JenkinsFile 6..."
+            echo "Building JenkinsFile6..."
         }
     }  
     
