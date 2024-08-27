@@ -1,0 +1,26 @@
+pipeline {
+    agent any
+
+    stages{
+        stage("Init"){
+           steps {
+               echo "Testing JenkinsFile 6..."       
+           } 
+        }
+  
+    stage("Build"){
+        steps{
+            echo "Building JenkinsFile6..."
+        }
+    }  
+    
+    stage("Deploy"){
+        steps{
+            echo "JenkinsFile6 Code deployment"
+        }
+    }
+}
+triggers{
+     pollSCM('* * * * *')
+        }
+}

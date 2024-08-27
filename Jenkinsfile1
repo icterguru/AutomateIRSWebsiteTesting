@@ -1,0 +1,24 @@
+pipeline {
+    agent any
+    stages{
+        stage("Init"){
+           steps {
+               echo "Testing JenkinsFile1..."
+           
+           } 
+        }
+    stage("Build"){
+        steps{
+            echo "Building JenkinsFile1..."
+        }
+    }  
+    
+    stage("Deploy"){
+        steps{
+            echo "JenkinsFile1Code deployment"
+        }
+    }
+    
+        
+    }
+}

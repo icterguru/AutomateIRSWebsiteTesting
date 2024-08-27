@@ -30,7 +30,6 @@ public class SetDriver {
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");  // For Windows
 			//System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver");  // For Mac
 			webDriver = new ChromeDriver();
-			
 		}
 	
 	@After
